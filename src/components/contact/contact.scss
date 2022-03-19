@@ -1,0 +1,192 @@
+@import "../../global.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../../public/img/contact.jpg") no-repeat center
+    center/cover;
+
+  .sidecontact {
+    width: 14%;
+    height: 45%;
+    background-color: #0f3959;
+    z-index: 20;
+    margin-right: 45%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include mobile {
+      display: none;
+    }
+
+    @include fhd {
+      margin-right: 50%;
+    }
+
+    .info {
+      margin-top: 2rem;
+      color: rgba(160, 154, 154, 0.596);
+
+      h2 {
+        @include mobile {
+        }
+        margin-left: 1rem;
+        color: white;
+      }
+
+      .mailcontainer {
+        margin-top: 2rem;
+
+        .mail {
+          font-size: 1rem;
+          margin-left: 1rem;
+        }
+        .m {
+          font-size: 0.7rem;
+          margin-left: 1rem;
+        }
+      }
+
+      .phonecontainer {
+        margin-top: 2rem;
+        .phone {
+          font-size: 1rem;
+          margin-left: 1rem;
+        }
+        .p {
+          font-size: 0.7rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+
+    .socialmedia {
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 3rem;
+        li {
+          a {
+            color: rgba(94, 89, 89, 0.637);
+
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    button {
+      width: 20%;
+      height: 30px;
+      color: white;
+      background-color: #0f3959;
+      border: none;
+      border-radius: 10px;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 40px;
+      margin-right: 42%;
+
+      @include mobile {
+        margin-left: 40%;
+      }
+
+      @include fhd {
+        margin-right: 50%;
+      }
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    textarea {
+      width: 71%;
+      height: 100px;
+      font-size: 14px;
+      border: none;
+      border-bottom: lightgray solid 1px;
+      margin-left: 10%;
+      @include mobile {
+        width: 80%;
+
+        margin-left: 10px;
+        height: 50px;
+      }
+      @include fhd {
+        width: 80%;
+      }
+    }
+
+    form {
+      width: 45%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-radius: 10px;
+
+      @include mobile {
+        width: 40%;
+      }
+
+      .changedirection {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 10%;
+
+        @include mobile {
+          width: 100%;
+          flex-direction: column;
+          margin-right: 14px;
+        }
+      }
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+      margin-right: 36.5rem;
+      color: #0f3959;
+      @include mobile {
+        margin-right: 0;
+        margin-left: 4rem;
+        width: 180px;
+      }
+      @include fhd {
+        margin-left: 130px;
+        width: 150px;
+      }
+    }
+
+    input {
+      width: 293px;
+      height: 30px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: lightgray solid 1px;
+      @include mobile {
+        width: 180px;
+      }
+    }
+  }
+}

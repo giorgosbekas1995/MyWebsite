@@ -1,0 +1,78 @@
+@import "../../global.scss";
+
+.containerinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgb(181, 202, 241);
+
+  @include mobile {
+    display: none;
+  }
+
+  .section {
+    width: 70%;
+    height: 90%;
+    background: #fff;
+    border-radius: 10%;
+    overflow: hidden;
+
+    @include fhd {
+      width: 70%;
+      height: 95%;
+    }
+
+    .section-title {
+      h1 {
+        font-size: 30px;
+        margin-top: 2rem;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+
+        @include fhd {
+          margin: 0.5rem;
+        }
+      }
+    }
+
+    .introparagraph {
+      margin: 5rem auto;
+      max-width: 700px;
+      @include fhd {
+        margin-bottom: 0;
+        margin-top: 2rem;
+      }
+      .intro {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Times New Roman", Times, serif;
+      }
+    }
+
+    .section-center {
+      border-top: gray 2px solid;
+
+      .button {
+        width: 20%;
+        height: 30px;
+        color: white;
+        background-color: #0f3959;
+
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+      p,
+      h1,
+      h2 {
+        font-family: "Times New Roman", Times, serif;
+      }
+      margin: 5rem auto;
+      max-width: 700px;
+    }
+  }
+}

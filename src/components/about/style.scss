@@ -1,0 +1,57 @@
+.sectioncontainer {
+  overflow: hidden;
+  background-color: rgba(6, 20, 43, 0.877);
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    h2,
+    h4 {
+      color: white;
+      max-width: 500px;
+    }
+
+    h4 {
+      margin-top: 30px;
+    }
+    a {
+      width: 12%;
+      margin-top: 40px;
+      text-align: center;
+
+      color: white;
+      background-color: #0f3959;
+      border: none;
+      border-radius: 10px;
+
+      cursor: pointer;
+      text-decoration: none;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  .Waves {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 51%;
+    width: 100%;
+    .wave1 {
+      margin-bottom: 40px;
+      opacity: 0.5;
+    }
+    .wave2 {
+      margin-top: 10px;
+      opacity: 0.8;
+      position: absolute;
+    }
+    .wave3 {
+      position: absolute;
+    }
+  }
+}

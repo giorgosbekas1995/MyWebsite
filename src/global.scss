@@ -1,0 +1,17 @@
+$mainColor: hsl(42, 78%, 60%);
+
+$width: 1700px;
+$width2: 1701px;
+$width3: 2559px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
+@mixin fhd {
+  @media (min-width: #{$width2}) and (max-width: #{$width3}) {
+    @content;
+  }
+}
