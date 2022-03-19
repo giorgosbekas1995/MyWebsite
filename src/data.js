@@ -11,6 +11,12 @@ export const frontendPortfolio = [
     link: "https://giorgosbekas1995.github.io/TravelWebsite/",
     img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
   },
+  {
+    id: 3,
+    title: "Play with Square",
+    link: "https://giorgosbekas1995.github.io/PlayWithSquare-Vue.js/index.html",
+    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+  },
 ];
 
 export const backendPortfolio = [
