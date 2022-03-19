@@ -30,7 +30,8 @@ export const backendPortfolio = [
 export const fullstackPortfolio = [
   {
     id: 1,
-    title: "More to come soon...",
-    //img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+    title: "React Node MySql CRUD",
+    link: "https://github.com/giorgosbekas1995/React-Node-MySql-CRUD/tree/master",
+    img: "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
   },
 ];
