@@ -3,19 +3,25 @@ export const frontendPortfolio = [
     id: 1,
     title: "Hotel Website",
     link: "https://giorgosbekas1995.github.io/HotelProject/",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    img: "./htmlcsssite1.png",
   },
   {
     id: 2,
     title: "Travel Agency Website",
     link: "https://giorgosbekas1995.github.io/TravelWebsite/",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    img: "./htmlcsssite.png",
   },
   {
     id: 3,
     title: "Play with Square",
     link: "https://giorgosbekas1995.github.io/PlayWithSquare-Vue.js/index.html",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    img: "./box.png",
+  },
+  {
+    id: 4,
+    title: "React Router",
+    link: "https://giorgosbekas1995.github.io/react-routing/#/",
+    img: "./img-home.jpg",
   },
 ];
 
@@ -32,6 +38,6 @@ export const fullstackPortfolio = [
     id: 1,
     title: "React Node MySql CRUD",
     link: "https://github.com/giorgosbekas1995/React-Node-MySql-CRUD/tree/master",
-    img: "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+    img: "./pc.jpg",
   },
 ];

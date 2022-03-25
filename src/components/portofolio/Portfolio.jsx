@@ -59,7 +59,7 @@ export default function Portfolio() {
         {selectedProject.map((data) => (
           <div className="item">
             <a href={data.link} target="_blank" rel="noreferrer">
-              <img src={data.img} alt=""></img>
+              {data.img && <img src={require(`${data.img}`)} alt=""></img>}
             </a>
             <h3>{data.title}</h3>
           </div>
