@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.f557b185.css",
-    "main.js": "/MyWebsite/static/js/main.4f257aaa.js",
+    "main.js": "/MyWebsite/static/js/main.d61911bd.js",
     "static/media/contact.jpg": "/MyWebsite/static/media/contact.b126362c28674ec1b14f.jpg",
     "static/media/giorgos.jpg": "/MyWebsite/static/media/giorgos.b554f1c4e163c54ff191.jpg",
     "static/media/GiorgosBekas.pdf": "/MyWebsite/static/media/GiorgosBekas.efdc8829d31d507bb04b.pdf",
     "index.html": "/MyWebsite/index.html",
     "main.f557b185.css.map": "/MyWebsite/static/css/main.f557b185.css.map",
-    "main.4f257aaa.js.map": "/MyWebsite/static/js/main.4f257aaa.js.map"
+    "main.d61911bd.js.map": "/MyWebsite/static/js/main.d61911bd.js.map"
   },
   "entrypoints": [
     "static/css/main.f557b185.css",
-    "static/js/main.4f257aaa.js"
+    "static/js/main.d61911bd.js"
   ]
 }
