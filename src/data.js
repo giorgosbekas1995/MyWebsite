@@ -23,6 +23,12 @@ export const frontendPortfolio = [
     link: "https://giorgosbekas1995.github.io/react-routing/#/",
     img: "./img-home.jpg",
   },
+  {
+    id: 5,
+    title: "React Redux Hooks",
+    link: "https://giorgosbekas1995.github.io/MemeGenerator/",
+    img: "./memeimg.png",
+  },
 ];
 
 export const backendPortfolio = [
